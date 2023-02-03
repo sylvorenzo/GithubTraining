@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  schedule: 
+   - cron: "0 22 * * 1-5"
+    
+  paths-ignore:
+    - .github/**
+    
+  
+
+  
+
+
